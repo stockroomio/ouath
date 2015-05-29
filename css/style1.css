@@ -1,0 +1,434 @@
+body {
+    font-family: 'GothamRounded-Book';
+    color: #fff;
+    background-size: cover;
+    background-color: #fff;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #2ecff9;
+}
+
+.header {
+    padding-top: 2em;
+}
+
+h1 {
+    font-family: 'GothamRounded-Book';
+    color: #fff;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-family: 'GothamRounded-Book';
+    color: #fff;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-family: 'GothamRounded-Book';
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'GothamRounded-Book';
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'GothamRounded-Book';
+    color: #fff;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+
+
+
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #FFF url('../img/preloader.gif') no-repeat center center;
+    background-size: 400px 300px;
+}
+
+
+
+
+
+section.wrapper{
+   width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+        -webkit-transition: all 0.5sec ease;
+     -moz-transition: all 0.5sec ease;
+     transition: all 0.5sec ease;
+}
+
+
+
+
+div.logo img{
+     -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+
+div.logo:hover img{
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(1800deg);
+}
+
+
+
+
+div.logo span{
+    color: white;
+}
+
+
+
+
+section.wrapper_bg{
+    background: #00BCD4;
+    -webkit-transition: background-color 250ms;
+ -moz-transition: background-color 250ms;
+ transition: background-color 250ms;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    
+}
+
+
+
+section.wrapper div.logo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+section.wrapper div.logo img{
+    width: 35%;
+}
+
+
+
+section.intro{
+   background-color: #00BCD4;
+z-index: 1000;
+background: url('../img/main_bg.jpg') center center;
+background-size: cover;
+height: 100vh;
+border: 20px solid white;
+}
+
+section.intro .row.introtxt{
+    position: absolute;
+width: 700px;
+height: 200px;
+left: 50%;
+top: 50%;
+margin-left: -350px;
+margin-top: -100px;
+}
+
+section.intro div.title h1{
+    font-family:  'BrandonGrotesque-Light';
+    color: #343434;
+    font-size: 2.6em;
+    text-align: center;
+}
+
+
+section.intro div.title span{
+    font-family:  'BrandonGrotesque-Bold';
+    color: #343434;
+    font-size: 1.0em;
+
+}
+
+
+section.intro a{
+    background: url(../img/git_icon.svg) no-repeat;
+    background-size: 23px 30px;
+    background-position: 24px 12px;
+    font-family: 'GothamRounded-Book';
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 256px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #00BCD4;
+    webkit-transition: -webkit-transform 0.1s ease,box-shadow 0.1s ease;
+    -moz-transition: -moz-transform 0.1s ease,box-shadow 0.1s ease;
+    transition: transform 0.1s ease,box-shadow 0.1s ease;
+    -webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 10px 15px rgba(181, 181, 181, 0.91);
+    -moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 10px 15px rgba(165,36,30,0.6);
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 10px 15px rgba(181, 181, 181, 0.91);
+
+}
+
+
+
+   
+
+
+section.intro a{
+    padding: 20px 20px 20px 60px;
+    color: white;
+}
+
+
+section.intro a:hover{
+ color: white;
+webkit-transform: translateY(-4px);
+-moz-transform: translateY(-4px);
+-ms-transform: translateY(-4px);
+transform: translateY(-4px);
+-webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 10px 15px rgba(136, 136, 136, 0.91);
+-moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 16px 20px rgba(165,36,30,0.8);
+box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14),0 10px 15px rgba(136, 136, 136, 0.91);
+
+}
+
+
+
+section.intro .gitprofile{
+    text-align: center;
+    margin-bottom: -15px;
+    position: relative;
+
+
+}
+
+
+section.intro img.arrow_prof{
+    position: absolute;
+    width: 16% !important;
+    top: -48px;
+    right: 112px;
+
+}
+
+
+section.intro .gitprofile img{
+    width: 50%;
+}
+
+
+section.steps{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section.steps h1{
+    font-family: 'BrandonGrotesque-Light';
+    color: #8E8E8E;
+    font-size: 2.2em;
+   
+}
+
+section.steps .row{
+    text-align: center;
+}
+
+section.steps img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+section.steps div.line{
+    width: 40px;
+    border-bottom: 3px solid #D8D8D8;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+section.steps p{
+    font-family: inherit;
+    color: #8E8E8E;
+    font-size: 1.0em;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-family:'GothamRounded-Medium';
+
+}
+
+section.footer{
+    background: url('../img/bg.jpg') top center no-repeat;
+    background-color: #1E1F23;
+    background-size: cover;
+    padding-bottom: 60px;
+    border: 20px solid white;
+}
+
+section.footer div.profile_screen{
+    text-align: center;
+    padding: 80px 0px;
+   
+}
+
+
+section.footer div.profile_screen img{
+    width: 40%;
+    margin-top: -103px;
+}
+
+section.footer a{
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+
+}
+
+
+section.footer a img{
+    width: 15%;
+}
+
+section.footer img.zigzag{
+    margin: 0 auto;
+    width: 3%;
+    display: block;
+    margin-top: 15px;
+}
+
+
+section.footer p{
+    text-align: center;
+    font-size: 15px;
+    color: #505050;
+    margin-top: 15px;
+}
+
+
+section.footer .icon.twitter {
+color: #646464;
+font-size: 30px;
+}
+
+
+section.footer .icon.facebook {
+color: #646464;
+font-size: 30px;
+}
+
+
+section.footer .icon.facebook:hover {
+color: #598EFF;
+}
+
+
+section.footer .icon.twitter:hover {
+color: #3AB6E8;
+}
+
+
+section.footer .icon {
+display: inline-block;
+-webkit-transition: all .35s ease;
+-moz-transition: all .35s ease;
+transition: all .35s ease;
+}
+
+
+
+.dialog.dialog--open h2{
+   font-family: 'BrandonGrotesque-Light';
+   color: #888888;
+}
+
+button.action{
+    background: transparent;
+    position: absolute;
+    right: -11px;
+    top: 0;
+}
+
+button.action img{
+    width: 40px;
+    opacity: 0.3;
+}
+
+button.action img:hover{
+    opacity: 1;
+}
+
+
+
+
+
+@media only screen and (max-width: 40.063em) { 
+
+     section.intro img.arrow_prof{
+        display: none;
+     }
+
+
+     section.intro .gitprofile img{
+        width: 60%;
+     }
+
+
+     section.intro .row.introtxt{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    }
+
+
+
+    section.footer div.profile_screen img {
+        width: 70%;
+        margin-top: -103px;
+    }
+
+
+        section.footer a img {
+    width: 44%;
+    }
+
+
+
+}
+
+

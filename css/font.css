@@ -1,0 +1,108 @@
+
+
+@font-face {
+    font-family:'BrandonGrotesque-Bold';
+    src: url('BrandonGrotesque-Bold_gdi.eot');
+    src: url('BrandonGrotesque-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+        url('BrandonGrotesque-Bold_gdi.woff') format('woff'),
+        url('BrandonGrotesque-Bold_gdi.ttf') format('truetype'),
+        url('BrandonGrotesque-Bold_gdi.svg#BrandonGrotesque-Bold') format('svg');
+    font-weight: 450;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url('BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Regular.otf')  format('opentype'),
+         url('BrandonGrotesque-Regular.woff') format('woff'), url('BrandonGrotesque-Regular.ttf')  format('truetype'), url('BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Light';
+  src: url('BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Light.otf')  format('opentype'),
+         url('BrandonGrotesque-Light.woff') format('woff'), url('BrandonGrotesque-Light.ttf')  format('truetype'), url('BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('brandon_med-webfont.eot');
+    src: url('brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_med-webfont.woff2') format('woff2'),
+         url('brandon_med-webfont.woff') format('woff'),
+         url('brandon_med-webfont.ttf') format('truetype'),
+         url('brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family:'GothamRounded-Book';
+    src: url('GothamRounded-Book_gdi.eot');
+    src: url('GothamRounded-Book_gdi.eot?#iefix') format('embedded-opentype'),
+        url('GothamRounded-Book_gdi.woff') format('woff'),
+        url('GothamRounded-Book_gdi.ttf') format('truetype'),
+        url('GothamRounded-Book_gdi.svg#GothamRounded-Book') format('svg');
+    font-weight: 325;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+@font-face {
+    font-family:'GothamRounded-Bold';
+    src: url('GothamRounded-Bold_gdi.eot');
+    src: url('GothamRounded-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+        url('GothamRounded-Bold_gdi.woff') format('woff'),
+        url('GothamRounded-Bold_gdi.ttf') format('truetype'),
+        url('GothamRounded-Bold_gdi.svg#GothamRounded-Bold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+@font-face {
+    font-family:'GothamRounded-Medium';
+    src: url('GothamRounded-Medium_gdi.eot');
+    src: url('GothamRounded-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+        url('GothamRounded-Medium_gdi.woff') format('woff'),
+        url('GothamRounded-Medium_gdi.ttf') format('truetype'),
+        url('GothamRounded-Medium_gdi.svg#GothamRounded-Medium') format('svg');
+    font-weight: 350;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+@font-face {
+    font-family:'GothamRounded-Light';
+    src: url('GothamRounded-Light_gdi.eot');
+    src: url('GothamRounded-Light_gdi.eot?#iefix') format('embedded-opentype'),
+        url('GothamRounded-Light_gdi.woff') format('woff'),
+        url('GothamRounded-Light_gdi.ttf') format('truetype'),
+        url('GothamRounded-Light_gdi.svg#GothamRounded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
